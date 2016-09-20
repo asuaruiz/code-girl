@@ -1,39 +1,46 @@
-
-.container-fluid {
-	padding: 0;
-}
-.foto-home {
-	background-image: url(../img/home.jpg);
-	padding: 10%;
-	background-size: 100%;
-	background-repeat: no-repeat;
-	font-size: 20%;
-}
+/*COLORES DE LETRAS*/
 .white-font {
 	color: white;
 }
+.yellow-font {
+	color: yellow;
+}
+/*BACKGROUNDS*/
+.fondo-home {
+	background-image: url(../img/home.jpg);
+	padding: 10%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-size: 20%;
+}
 .fondo-yellow {
 	background-color: yellow;
-}
-.img-hackathon {
-	padding: 5%;
-}
-.centrar {
-	padding-top: 8%;
-}
-.centrar-left {
-	padding-left: 10%;
-}
-.centrar-form {
-	padding: 3% 5%;	
 }
 .fondo-footer {
 	background-color: #4597A3;
 	padding: 2%;
 	margin-top: 5%;
 }
-.color-letra {
-	color: yellow;
+/*MARGIN Y PADDING*/
+.container-fluid {
+	padding: 0;
+}
+.img-hackathon {
+	padding: 5%;
+	margin: 0 auto;
+}
+.img-contacto {
+	padding-top: 10%;
+	padding-left: 3%;
+}
+.centrar {
+	padding-top: 7%;
+}
+.centrar-left {
+	padding-left: 10%;
+}
+.centrar-form {
+	padding: 1% 5%;	
 }
 .navbar {
 	margin-bottom: 0;

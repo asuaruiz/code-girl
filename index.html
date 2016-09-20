@@ -6,26 +6,23 @@
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link href="css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
-
 </head>
 <body>
-	<header>
-		<nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">Coder Girls</a>
-    </div>
+  <nav class="navbar navbar-default"><!--Navbar-->
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Coder Girls</a>
+      </div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
           <ul class="dropdown-menu">
             <li><a href="#">Action</a></li>
             <li><a href="#">Another action</a></li>
@@ -35,29 +32,27 @@
             <li role="separator" class="divider"></li>
             <li><a href="#">One more separated link</a></li>
           </ul>
-        </li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right ">
-        <li><a href="#">Inicio</a></li>
-        <li><a href="#documental">Documental</a></li>
-        <li><a href="#hackathon">Hackathon</a></li>
-        <li><a href="#contacto">Contacto</a></li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
-	</header>
-  <section class="container-fluid">
+        </ul>
+        <ul class="nav navbar-nav navbar-right ">
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#documental">Documental</a></li>
+          <li><a href="#hackathon">Hackathon</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+  <section class="container-fluid"><!--Inscribete y Documental-->
     <div class="row text-center">
       <div class="col-xs-12 col-sm-12 col-md-12">
-        <div class="foto-home">
+        <div class="fondo-home">
           <h1 class="white-font">CHICAS QUE CAMBIAN EL MUNDO</h1>
           <h4>¡Participa en nuestras actividades!</h4>
           <p><a class="btn btn-primary btn-lg" href="#" role="button">Inscribete</a></p>
         </div>
       </div>
     </div> 
-    <div class="row text-center">
+    <div class="row text-center"><!--Documental-->
       <div class="col-xs-12 col-sm-12 col-md-12">
         <h2 class="centrar" id="documental">VE NUESTRO DOCUMENTAL</h2>
       </div>
@@ -73,10 +68,10 @@
           <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/cRb5iel-3Ck"></iframe>
         </div>
       </div>
-    </div>  
+    </div> 
   </section>
-  <section class="container-fluid fondo-yellow">
-    <div class="row fondo-yellow">
+  <section class="container-fluid fondo-yellow"> <!--Hackathon-->
+    <div class="row fondo-yellow"><!--Fondo Amarillo-->
       <div class="col-xs-12 col-sm-12 col-md-6">
         <img class="img-hackathon img-responsive" src="img/hackathon.jpg" alt="">
       </div>
@@ -86,12 +81,12 @@
         <p>Idea soluciones a las problematicas que te presentaremos, rodeada de chicas tan geniales como tu. Nos reuniremos el 30 de septiembre desde las 10 am.</p>
         <p><a class="btn btn-primary btn-lg" href="#" role="button">Inscribete</a></p>
       </div>
-    </div>    
+    </div> 
   </section>
   <section class="container-fluid">
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-7">
-        <img class="centrar img-responsive" src="img/made_with_code.jpg" alt="">
+        <img class="img-responsive img-contacto" src="img/made_with_code.jpg" alt="">
       </div>
       <div class="col-xs-12 col-sm-12 col-md-5">
         <h2 class=" centrar-left centrar" id="contacto">CONTACTO</h2>
@@ -117,24 +112,18 @@
           <button type="submit" class="btn btn-primary">Enviar</button>
         </form>
       </div>
-    </div>
+    </div><!--Contacto-->
   </section>
-  <footer class="fondo-footer white-font">
-    <p>© 2016 Code Girl. Diseñado por <span class="color-letra">Laboratoria</span></p>
+  <footer class="fondo-footer white-font"><!--Footer-->
+    <p>© 2016 Code Girl. Diseñado por <span class="yellow-font">Laboratoria</span></p>
   </footer>	
-
-
-
-
 
 
 
 
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="js/bootstrap.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
   </script>
-  
 </body>
 </html>
