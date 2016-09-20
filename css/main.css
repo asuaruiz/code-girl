@@ -1,0 +1,41 @@
+
+.container-fluid {
+	padding: 0;
+}
+.foto-home {
+	background-image: url(../img/home.jpg);
+	padding: 10%;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	font-size: 20%;
+}
+.white-font {
+	color: white;
+}
+.fondo-yellow {
+	background-color: yellow;
+}
+.img-hackathon {
+	padding: 5%;
+}
+.centrar {
+	padding-top: 8%;
+}
+.centrar-left {
+	padding-left: 10%;
+}
+.centrar-form {
+	padding: 3% 5%;	
+}
+.fondo-footer {
+	background-color: #4597A3;
+	padding: 2%;
+	margin-top: 5%;
+}
+.color-letra {
+	color: yellow;
+}
+.navbar {
+	margin-bottom: 0;
+	padding: 0 5%;
+}
